@@ -83,7 +83,7 @@ pnpm install
 
 ## テスト
 
-- ランナー: Vitest（DOM: happy-dom）
+- ランナー: Vitest Browser Mode（Playwright / Chromium）
 - 位置: `app/**.test.ts`, `server/**.test.ts`
 - 実行: `pnpm vp:test:watch`
 
